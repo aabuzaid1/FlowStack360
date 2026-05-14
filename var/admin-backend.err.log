@@ -1,0 +1,13 @@
+(node:10628) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:10628) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+FirebaseService not available, falling back to local storage
+FirebaseService not available, falling back to local storage
+FirebaseService not available, falling back to local storage
+FirebaseService not available, falling back to local storage
+FirebaseService not available, falling back to local storage
+FirebaseService not available, falling back to local storage
+FirebaseService not available, falling back to local storage
+FirebaseService not available, falling back to local storage
+FirebaseService not available, falling back to local storage
+FirebaseService not available, falling back to local storage

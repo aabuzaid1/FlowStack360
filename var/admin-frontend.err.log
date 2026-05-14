@@ -1,0 +1,12 @@
+⚠ Fast Refresh had to perform a full reload when ./libraries/react-shared-libraries/src/translation/locales/en/translation.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[browser] ⨯ unhandledRejection: Error: {"statusCode":400,"message":"Primary admin cannot be demoted"}
+    at useAdminRequest.useCallback (src/components/admin/admin-pages.tsx:118:15)
+    at async toggleAdmin (src/components/admin/admin-pages.tsx:653:5)
+  116 |         const text = await response.text();
+  117 |         toaster.show(text || 'Admin request failed', 'warning');
+> 118 |         throw new Error(text);
+      |               ^
+  119 |       }
+  120 |
+  121 |       if (response.status === 204) {
+[browser] CopilotKit Error (hidden in production): CombinedError: [Network] Unknown error occurred (<anonymous>)

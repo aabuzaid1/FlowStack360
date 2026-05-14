@@ -1,0 +1,17 @@
+ WARN  Unsupported engine: wanted: {"node":">=22.12.0 <23.0.0"} (current: {"node":"v24.13.1","pnpm":"10.6.1"})
+
+> gitroom@1.0.0 dev C:\Users\abdel\Desktop\OminiFLow
+> node var/dev-lite.cjs
+
+[backend] .                                        | [43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":">=22.12.0 <23.0.0"} (current: {"node":"v24.13.1","pnpm":"10.6.1"})
+[frontend] .                                        | [43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":">=22.12.0 <23.0.0"} (current: {"node":"v24.13.1","pnpm":"10.6.1"})
+[backend] > postiz-backend@1.0.0 dev C:\Users\abdel\Desktop\OminiFLow\apps\backend
+[backend] > nest build && dotenv -e ../../.env -- node ./dist/apps/backend/src/main.js
+[frontend] > postiz-frontend@1.0.0 dev C:\Users\abdel\Desktop\OminiFLow\apps\frontend
+[frontend] > dotenv -e ../../.env -- next dev -p 4200
+[frontend] [?25h
+[frontend] C:\Users\abdel\Desktop\OminiFLow\apps\frontend:
+[frontend] [41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31mpostiz-frontend@1.0.0 dev: `dotenv -e ../../.env -- next dev -p 4200`[39m
+[frontend] [31mExit status 1[39m
+[frontend] [43m[30m WARN [39m[49m  Local package.json exists, but node_modules missing, did you mean to install?
+ ELIFECYCLE  Command failed with exit code 1.
